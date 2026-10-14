@@ -1,0 +1,3 @@
+class Kucing extends Hewan {
+    
+}
