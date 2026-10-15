@@ -1,16 +1,25 @@
 public class Main {
     public static void main(String [] args) {
         
-        Hewan [] daftarHewan = {
-            new Kucing("Cecep"),
-            new Kucing("Bobon"),
-            new Anjing("Pablo"),
-            new Anjing("Kipli"),
-            new Burung("Ucup")
-        };
+       Kucing k = new Kucing("Cecep");
+       Anjing a = new Anjing("Pablo");
+       Burung b = new Burung("Ucup");
 
-        for (Hewan h : daftarHewan) {
-            h.suara();
-        }
+       Hewan h;
+
+       h = k;
+       h.suara();
+
+       h = a;
+       h.suara();
+
+       h = b;
+       h.suara();
+
+
+       k.berburu();
+       a.bermain();
+       b.terbang();
+
     }
 }

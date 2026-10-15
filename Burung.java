@@ -7,4 +7,8 @@ class Burung extends Hewan {
    void suara() {
     System.out.println(nama + " berkicau");
    }
+
+   void terbang() {
+    System.out.println(nama + " sedang terbang");
+   }
 }

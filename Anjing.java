@@ -7,4 +7,8 @@ class Anjing extends Hewan {
    void suara() {
     System.out.println(nama + " menggonggong");
    }
+
+   void bermain() {
+    System.out.println(nama + " sedang bermain");
+   }
 }
