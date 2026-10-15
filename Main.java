@@ -1,14 +1,16 @@
 public class Main {
     public static void main(String [] args) {
-        Hewan h;
+        
+        Hewan [] daftarHewan = {
+            new Kucing("Cecep"),
+            new Kucing("Bobon"),
+            new Anjing("Pablo"),
+            new Anjing("Kipli"),
+            new Burung("Ucup")
+        };
 
-        h = new Kucing();
-        h.suara();
-
-        h = new Anjing();
-        h.suara();
-
-        h = new Burung();
-        h.suara();
+        for (Hewan h : daftarHewan) {
+            h.suara();
+        }
     }
 }

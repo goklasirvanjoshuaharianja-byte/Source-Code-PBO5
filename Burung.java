@@ -1,5 +1,10 @@
 class Burung extends Hewan {
-    void suara() {
-        System.out.println("Burung sedang berkicau");
-    }
+
+   Burung(String nama) {
+    super(nama);
+   }
+
+   void suara() {
+    System.out.println(nama + " berkicau");
+   }
 }

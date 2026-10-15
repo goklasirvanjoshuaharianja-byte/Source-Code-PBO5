@@ -1,6 +1,10 @@
 class Kucing extends Hewan {
-    String nama;
+    
+    Kucing(String nama) {
+        super(nama);
+    }
+
     void suara() {
-        System.out.println("Kucing sedang mengeong");
+        System.out.println(nama + " mengeong");
     }
 }

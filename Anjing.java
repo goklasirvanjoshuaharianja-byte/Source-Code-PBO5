@@ -1,5 +1,10 @@
 class Anjing extends Hewan {
-    void suara() {
-        System.out.println("Anjing sedang menggonggong");
-    }
+
+   Anjing(String nama) {
+    super(nama);
+   }
+
+   void suara() {
+    System.out.println(nama + " menggonggong");
+   }
 }
