@@ -1,8 +1,12 @@
+package studi_kasus;
+
 public class Hewan {
-    String nama;
-    
-    Hewan(String nama) {
+    public String nama;
+    public String jenis;
+
+    Hewan(String nama, String jenis) {
         this.nama = nama;
+        this.jenis = jenis;
     }
 
     void suara() {
